@@ -87,6 +87,13 @@ dist
 node_modules
 ```
 
+Edit your `index.js` file to include: 
+
+**index.js**  
+```js
+import css from './style.css';
+```
+
 Replace the "scripts" section of your `package.json` file with:
 
 **package.json**
